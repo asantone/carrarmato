@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Who We Are | Meet the Vibram Team</title>
+
+    <!-- Load Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,400italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- Load stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <!-- Headline -->
+    <h1>Vibram Global Locations</h1>
+
+    <p>
+        The current map of Vibram locations is displayed on the company website, but the map suffers from some shortcomings.
+        Notably, the indicated locations are not accurate and the text is somewhat difficult to read.
+        These issues may lead to decreased information transfer, confusion, or frustration.
+    </p>
+    <p>
+        In an attempt to provide users with an improved tool, two proposed map variants are presented here.
+        Each map option offers accurate location data and a higher degree of legibility through the use of vector graphics instead of raster graphics.
+        Additionally, each map presents users with an interactive tool, allowing for independent exploration and hopefully higher engagement.
+    </p>
+    <p>
+        Each of the interactive maps was created using javascript libraries. One map relies on <a href="https://d3js.org/" target="_blank">D3</a> and the other on <a href="https://leafletjs.com/" target="_blank">Leaflet</a>.
+    </p>
+
+
+    <hr>
+
+    <div class="row">
+
+        <div class="col-md-3"> <h3 class="labelText">Current Version </h3>
+
+            <ul class="labelText">
+                <li>- inaccurate locations</li>
+                <li>- incomplete geography</li>
+                <li>- low-res raster graphics</li>
+                <li>- low legibility</li>
+                <li>- small font size</li>
+                <li>- low engagement</li>
+                <li>- inaccurate "Vibram Yellow"</li>
+                <li>- difficult updates</li>
+                <li>+ consistent display</li>
+                <li>+ branding through color</li>
+            </ul>
+
+        </div>
+        <div class="col-md-9">
+
+            <!-- raster map -->
+            <div id="current" align="center"><img src="img/where-we-are-slot-1.jpg" width="910" /></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+
+        <div class="col-md-3"> <h3 class="labelText">Option: D3</h3>
+
+            <ul class="labelText">
+                <li>+ accurate locations</li>
+                <li>+ complete geography</li>
+                <li>+ high-res vector graphics</li>
+                <li>+ high legibility</li>
+                <li>+ larger font size</li>
+                <li>+ moderate engagement</li>
+                <li>+ high-legibility tooltips</li>
+                <li>+ no external resources</li>
+                <li>+ branding through color & icons</li>
+                <li>+ accurate "Vibram Yellow"</li>
+                <li>+ on-brand "Verdana" font</li>
+                <li>+ custom colors for land</li>
+                <li>+ easy updates through data file</li>
+                <li>+ responsive carrarmato icons</li>
+                <li>- no zoom & pan</li>
+            </ul>
+
+
+        </div>
+        <div class="col-md-9">
+
+           <!-- D3 visualization -->
+
+            <div id="map" align="center">
+                 <!--<div id="overlay"><img src="img/logoFlat.svg" class="logo" /></div>-->
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+
+        <div class="col-md-3"> <h3 class="labelText">Option: Leaflet</h3>
+
+            <ul class="labelText">
+                <li>+ accurate locations</li>
+                <li>+ complete geography</li>
+                <li>+ high-res vector graphics</li>
+                <li>+ high legibility</li>
+                <li>+ larger font size</li>
+                <li>+ moderate engagement</li>
+                <li>+ zoom & pan </li>
+                <li>+ dark & light map options </li>
+                <li>+ branding through color & icons</li>
+                <li>+ accurate "Vibram Yellow"</li>
+                <li>+ easy updates through data file</li>
+                <li>- less vivid than other options</li>
+                <li>- requires click for tooltips</li>
+                <li>- cannot edit land colors</li>
+                <li>- map tiles from external source</li>
+                <li>- map tile credits visible</li>
+            </ul>
+
+        </div>
+        <div class="col-md-9">
+
+            <!-- Leaflet map -->
+            <div id="leaflet"></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <p>Credits: Vibram, D3, Leaflet, OpenStreetMap, CartoDB,
+        <a href="http://bl.ocks.org/micahstubbs/8e15870eb432a21f0bc4d3d527b2d14f" target="_blank">Michah Stubbs</a>,
+        <a href="https://www.kaggle.com/ktochylin/world-countries" target="_blank">Kaggle</a>
+    </p>
+
+
+    </div> <!--end container-->
+
+
+
+
+
+</div>
+
+<!-- Load JS libraries -->
+<script src="js/d3.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/queue.v1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/d3-tip.js"></script>
+<script src="js/topojson.v2.min.js"></script>
+<script src="js/leaflet.js"></script>
+
+<!-- Load visualization script -->
+<script src="js/vibram.js"></script>
+
+</body>
+</html>

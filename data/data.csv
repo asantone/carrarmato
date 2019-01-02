@@ -1,0 +1,10 @@
+name,street,city,region,country,zip,email,tel,fax,lon,lat,altLon,altLat,function
+Quabaug,18 School Street,North Brookfield,Massachusetts,United States of America,1535,,,,-54,43.5,-72.082354,42.268606,Rubber Products Manufacturing
+Vibram Flagship Store,292 Newbury Street,Boston,Massachusetts,United States of America,2115,,+1 857 263 8508,,-65,28,-71.084538,42.348977,"Flagship Store, North America"
+Vibram USA,9 Pond Lane,Concord,Massachusetts,United States of America,1742,sales@vibramusa.com,+1 978 318 0000,+1.978.3189245,-57,35,-71.409231,42.453511,"Marketing, Sales, Design, Test Center"
+Vibram Brazil,"Rua Frei Gregório Gil nº 7, Bairro Estação, CEP 14 405 213, Franca City - BRASIL",Franca,S&#227;o Paulo,Brasil,,,55.16371326,55.16371326,-47.403893,-20.543214,,,Production & Sales
+Vibram Milan,"Via Raffaello Sanzio, 6, 20149 Milano, Italy",Milano,Lombardia,Italia,,,+39 02 3652 8461,,-21,52,9.153386,45.469265,"Flagship Store, Europe"
+Vibram Headquarters,"International Headquarters Via Colombo, 5 - 21041 Albizzate (Varese), Italia",Albizzate,Lombardia,Italia,,vibram@vibram.com,+39 0331 999 777,+39.0331.992.572,-25,42,8.809864,45.736832,"Production, Marketing, Sales, Research, Development"
+Vibram China and Technological Center,"Fengshen Avenue 257, Auto City, - Xinhua Town, Huadu, Guangzhou GUANG DONG 510800 - China",Guangzhou,Guangdong,China,,info@vibram.cn,+86 20 8673 2333,+86.20.86732199,113.168535,23.379298,,,"Research, Development, Test Center"
+Vibram Japan,"Burex Kyobashi 513 2-7-14, Kyobashi, Chuo-ku Tokio 104-0031 Japan",Tokyo,Tokyo,Japan,,Kumiko.sanada@vibram.jp,8.10E+11,+81.03.6228.7247,139.771884,35.677293,,,"Marketing, Sales, Test Center"
+Montebelluna Workspace,"Corso Mazzini 101, Montebelluna (TV) - 31044, Italy",Montebelluna,Veneto,Italia,,,+39 0423 010358,,-12.344586,60.409759,12.046143,45.776234,"Collaboration, Test Center, Sales"
